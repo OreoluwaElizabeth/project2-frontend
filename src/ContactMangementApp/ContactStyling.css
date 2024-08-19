@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+.container {
+    background-image: url("https://img.freepik.com/free-photo/close-up-people-with-smartphone_23-2149033710.jpg?t=st=1723811280~exp=1723814880~hmac=e11941e26825b357f0790a5350517bc80a23deb016597fb3fb201b79d14513ac&w=1380");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+img {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.main {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main ul li {
+    margin-right: 20px;
+}
+.main ul li a {
+    text-decoration: none;
+    color: #337ab7;
+}
+.main ul li a:hover {
+    color: #23527c;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #23527c;
+}
+.section {
+   display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+}
+
+.write-up {
+    flex-basis: 50%;
+}
+.write-up h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.write-up p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(112, 128, 144, 0.20);
+}
+.feature-image img {
+    width: 500px;
+    height: 300px;
+}
+.feature-rite{
+    flex-basis: 50%;
+    margin-left: 50px;
+    text-align: right;
+}
